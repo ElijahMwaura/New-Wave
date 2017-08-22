@@ -1,1 +1,164 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New Wave</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="new-wave.css">
+</head>
+<body>
+	<div id="nav">
+		<div id="nav-menu">
+			<a href="#" class="menu-link">HOME</a>
+			<a href="#" class="menu-link">EXPLORE</a>
+			<a href="#" class="menu-link">WHAT'S NEW</a>
+			<a href="#" class="menu-link">JOIN</a>
+			<div id="dropdown-menu" class="menu-link">
+				<button id="dropdown-button">MORE</button>
+				<div id="dropdown-content">
+					<a href="#" class="dropdown-link">MERCH</a>
+					<a href="#" class="dropdown-link">ABOUT</a>
+					<a href="#" class="dropdown-link">CONTACT</a>
+				</div> 
+			</div>
+			<div id="search">
+			<input type="text" placeholder="Search" id="search-input">
+			<button id="search-btn" class="fa fa-search"></button>
+			</div>
+		</div>
+	</div>
+	<div id="web-container">
+	<div id="home">
+		<div class="slide-pic-container fade">
+			<img class="slide-pic" src="http://www.timhathaway.com/images/nature_mountain_range_fog_sunrise_landscape_tree_mac_ox_ultrahd_4k_wallpaper_background_3840x2160.jpg?crc=3871804724">
+			<a href="#" class="caption">WELCOME</a>
+		</div>
+		<div class="slide-pic-container fade">
+			<img class="slide-pic" src="http://himalayan-fantasy.com/wp-content/uploads/2014/06/mountain-new.jpg">
+			<a href="#" class="caption">FIND OUT WHAT'S NEW</a>
+		</div>
+		<div class="slide-pic-container fade">
+			<img class="slide-pic" src="http://4.bp.blogspot.com/-tekfgH9TOoM/TbbLlMD7geI/AAAAAAAABe4/bI_TcuxIUow/s1600/Gauri+Shankar+Sunrise+From+Suri+Dhoban.jpg">
+			<a href="#" class="caption">JOIN OUR TEAM</a>
+		</div>
+		<div class="slide-pic-container fade">
+			<img class="slide-pic" src="https://s-media-cache-ak0.pinimg.com/originals/3b/4a/85/3b4a85a009f64a48587c2bb717014052.jpg">
+			<a href="#" class="caption">DISCOVER YOUR POTENTIAL</a>
+		</div>
+		<a id="previous" onclick="slideIterate(-1)">&#10094;</a>
+		<a id="next" onclick="slideIterate(1)">&#10095;</a>
+		<br>
+		<div id="slide-btn-container">
+			<span class="dot" onclick="slideChoose(1)"></span>
+			<span class="dot" onclick="slideChoose(2)"></span>
+			<span class="dot" onclick="slideChoose(3)"></span>
+			<span class="dot" onclick="slideChoose(4)"></span>
+		</div>
+	</div>
+	<div id="explore">
+		<div id="header1">
+			<h1>EXPLORE</h1>
+			<p>Join the movement</p>
+		</div>
+		<div id="paragraph">
+				<p id="pg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		</div>
+		<hr>
+		<div id="section">
+			<div class="section">
+				<h1>Create</h1>
+				<p>Lorem ipsum dolor sit amet,</p>
+			</div>
+			<div class="section">
+				<h1>Share</h1>
+				<p>Lorem ipsum dolor sit amet,</p>
+			</div>
+			<div class="section">
+				<h1>Connect</h1>
+				<p>Lorem ipsum dolor sit amet,</p>
+			</div>
+		</div>
+	</div>
+	<div id="whats-new">
+		<div id="header2">
+			<h1>WHAT'S NEW</h1>
+			<p>Check Out What's New</p>
+		</div>
+		<div id="join">
+			<hr>
+			<h1 class="mid-header">Register</h1>
+			<hr>
+			<h1 class="mid-header">Become a Member</h1>
+			<hr>
+			<h1  class="mid-header">Events</h1>
+			<hr>
+		</div>
+		<div id="mid-section">
+			<div class="mid">
+				<h1 class="sec-header">Browser Picture and Videos</h1>
+				<div class="section-btn">Gallery</div>
+			</div>
+			<div class="mid">
+				<h1 class="sec-header">Shop</h1>
+				<div class="section-btn">Merch</div>
+			</div>
+			<div class="mid">
+				<h1 class="sec-header">Meet New People</h1>
+				<div class="section-btn">Connect</div>
+			</div>
+		</div>
+	</div>
+	<div id="contact">
+		<div id="contact-header">
+			<h1>CONTACT</h1>
+			<p>Join Us</p>
+		</div>
+		<div id="contact-container">
+			<div class="contacts">
+				<i class="fa fa-map-marker" aria-hidden="true"></i>
+				<h1>New York, US</h1>
+				<hr>
+			</div>
+			<div class="contacts">
+				<i class="fa fa-phone" aria-hidden="true"></i>
+				<h1>Phone: 243-555-6042</h1>
+				<hr>
+			</div>
+			<div class="contacts">
+				<i class="fa fa-envelope" aria-hidden="true"></i>
+				<h1>Email: email@mail.com</h1>
+				<hr>
+			</div>
+		</div>
+		<div id="input">
+			<div id="input-n-e">
+			 <input type="Text" placeholder="Name" class="input">
+				<input type="Text" placeholder="Email" class="input">
+			</div>
+			<input type="Text" placeholder="Message" class="input">
+			<button id="send">Send</button>
+		</div>
+	</div>
+	<footer>
+		<div id="share">
+			<i class="fa fa-google" aria-hidden="true"></i>
+			<i class="fa fa-instagram" aria-hidden="true"></i>
+			<i class="fa fa-snapchat" aria-hidden="true"></i>
+			<i class="fa fa-twitter" aria-hidden="true"></i>
+			<i class="fa fa-facebook" aria-hidden="true"></i>
+		</div>
+		<h1>@2017 New Wave</h1>
+		<div id="terms">
+			<a href="#">Privacy Policy</a>
+			<a href="#">Terms and Conditions</a>
+			<a href="#">Ads info</a>
+			<a href="#">blog</a>
+		</div>
+	</footer>
+</div>
+	<script src="new-wave.js"></script>
+</body>
+</html>
